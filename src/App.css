@@ -883,6 +883,11 @@ gap: 60px;
   list-style: none;
   color: #a2a2a2;
 }
+
+
+
+
+
 /* ! header responsive */
 @media (max-width: 1024px) {
   header {
@@ -1100,6 +1105,260 @@ gap: 60px;
   flex-wrap: wrap;
   justify-content: start;
   gap: 3rem;
+}
+.footer_line{
+  width: 70%;
+}
+.footer_start_card{
+  width: 500px;
+}
+.footer_end{
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 3rem;
+}
+}
+
+
+/* ? responsive */
+@media (max-width: 724px) {
+  header {
+    width: 90%;
+    left: 15px;
+    .head_bar {
+      display: none;
+    }
+    nav ul {
+      
+      gap: 10px;
+      li a{
+        font-size: 12px;
+      }
+    }
+    
+  }
+  /* ! info */
+  .info {
+    height: 145vh;
+    padding: 100px;
+    .info_left{
+      width: 100%;
+      h1 {
+        font-size: 25px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .info__{
+      .info__btn{
+        padding: 10px 20px;
+      }
+    }
+    .info_right{
+      img {
+        display: none;
+      }
+    }
+  }
+
+
+/* ! Service */
+.service {
+  height: 365vh;
+  padding-top: 70px;
+}
+.service_title h2 {
+  font-size:30px ;
+}
+.service_cards{
+  flex-wrap: wrap;
+}
+
+/* ! about */
+.about  {
+  height: 270vh;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+.about_left_title{
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.about_left_title h2{
+  font-size: 35px;
+}
+.about_left_subtitle{
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.about_left_subtitle::after {
+  display: none;
+
+}
+.about_left {
+  width: 100%;
+}
+.about_left_subtitle_btn{
+  width: 200px;
+  height: 50px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+}
+
+/* ! design */
+.design_innovation_left{
+  padding-top: 5rem;
+  width: 100%;
+}
+.design_innovation{
+  display: block;
+  height: 485vh;
+}
+.design_innovation_left h2{
+  font-size: 65px;
+}
+.design_innovation_left h2 span {
+  font-size: 45px;
+}
+.design_innovation_buttons {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.design_innovation_button {
+  width: 70%;
+}
+.design_innovation_right form {
+  width: 400px;
+  height: 450px;
+}
+.design_innovation_right{
+  justify-content: center;
+  margin-top: 3rem;
+  width: 80%;
+}
+.design_innovation_right input {
+  width: 100%;
+}
+/* ! Education */
+.edu_skill{
+  height: 530vh;
+}
+.edu_skill_title h2 {
+  font-size: 40px;
+}
+.edu_skill_cards {
+  gap: 0px;
+  
+}
+.web_lang_card{
+  margin-bottom: 10px;
+}
+
+/* ! Portfolio */
+.my_portfolio  {
+  height: 410vh;
+  padding-top: 2rem;
+}
+.my_portfolio_title{
+  text-align: left;
+  padding: 10px;
+}
+.my_portfolio_title h2{
+  font-size: 35px;
+}
+.my_portfolio_images{
+  img {
+   justify-content: start;
+   width: 450px;
+   height: 300px;
+  }
+}
+
+/* ! REVIEW */
+.review{
+  height: 270vh;
+}
+.review_title h2{
+  font-size: 35px;
+}
+.review_cards{
+  flex-wrap: wrap;
+}
+.wrapper ul{
+  gap: 12px;
+}
+.wrapper ul li{
+  font-size: 25px;
+}
+
+/* ! Blog */
+.blog {
+  height: 455vh;
+}
+.blog_title{
+  justify-content: start;
+  padding: 10px;
+}
+.blog_title_left h2{
+  font-size: 35px;
+}
+.blog_title_right{
+  display: none;
+}
+.blog_cards{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+.blog_card{
+  width: 430px;
+}
+.blog_card_img img{
+  width: 100%;
+}
+.blog_card_box{
+  width: 350px;
+  height: 130px;
+  bottom: -65px;
+  left: 2.5rem;
+}
+.blog_card_box_title{
+  text-align: center;
+  padding-top: 10px;
+}
+.blog_card_box_title ul{
+  gap: 15px;
+}
+.blog_card_box_title ul li {
+  font-size: 14px;
+}
+.blog_card_box_title p {
+  font-size: 14px;
+}
+.blog_card_box_date {
+  text-align: center;
+  font-size: 14px;
+  width: 200px;
+  height: 43px;
+  left: 70px;
+}
+.subscribe_form {
+  width: 620px;
+  padding: 15px 15px;
+}
+/* ! Footer */
+.footer {
+  height: 210vh;
+}
+.footer_start{
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 3rem;
+}
+.footer_line{
+  width: 70%;
 }
 .footer_start_card{
   width: 500px;
